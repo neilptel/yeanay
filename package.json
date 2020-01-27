@@ -11,7 +11,8 @@
     "socket.io": "^2.3.0"
   },
   "engines": {
-    "node": "0.10.x"
+    "node": ">=10.10.0",
+    "npm": ">=6.4.1"
   },
   "repository": {
     "type": "git",
