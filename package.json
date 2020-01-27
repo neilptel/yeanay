@@ -1,0 +1,24 @@
+{
+  "name": "scrummy",
+  "description": "A Scrum planning and estimation game from Four Kitchens",
+  "version": "1.6.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "npm": "^6.13.6",
+    "socket.io": "^2.3.0"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brianschmitt/scrummy.git"
+  },
+  "subdomain": "playscrummy",
+  "domains": [
+    "playscrummy.com"
+  ]
+}
